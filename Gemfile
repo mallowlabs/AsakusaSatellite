@@ -41,7 +41,7 @@ end
 
 platform :ruby, :mswin, :mingw do
   gem 'socky-server', '>= 0.5.0.beta1'
-  gem 'thin'
+  gem 'puma'
   gem 'bson_ext', '1.7.0'
   gem 'newrelic_rpm'
   gem 'airbrake'
